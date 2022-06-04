@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
+    .nav_items{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        align-items: baseline;
+    }
+    .logo{
+        font-weight: bold;
+        font-size: 40px;
+    }
+    .arrow {
+  border: solid blueviolet;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.down {
+  transform: rotate(45deg);
+}
+.nav{
+    box-shadow: 0 8px 6px -6px black;
+}
+.sign{
+    margin-right: 20px;
+}
+ul li{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.first{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px; 
+    margin: 0px;
+}
+.right{
+    flex: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.left{
+    flex: 50%;
+}
+.source1{
+    width: 600px;
+    height: 600px;
+}
+.btn{
+    padding: 15px;
+    border: none;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #E8630B;
+    box-shadow: 0px 0px 300px -81px rgba(232,99,11,1);
+}
+.second{
+    border-radius: 10px 50px 0px 0px;
+    box-shadow: 0px 0px 28px 7px rgba(0,0,0,0.28);
+    padding: 0px; 
+    margin: 0px; 
+    height: 700px;
+    position: relative;
+}
+.source2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    max-width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+}
+.right1{
+    flex: 50%; 
+    align-items: baseline;
+}
+.left1{
+    flex: 50%;
+    align-items: center;
+}
+.hr1{
+    width: 80px;
+    height: 4px;
+    background-color: #1dd2e2;
+    border: none;
+    border-radius: 16px;
+}
+.source3{
+    height: 500px;
+}
+.third{
+    box-shadow: inset 0px 0px 70px -5px rgba(0,0,0,0.48);
+    padding: 150px 60px 150px 60px;
+    background-color: #f6f6f6;
+}
+.t_conatiner{
+    display: flex;
+    justify-content: space-around;
+}
+.fourth{
+    display: flex;
+    justify-content: space-between;
+}
+.right3{
+    flex: 50%;
+    text-align: center;
+}
+.lef3{
+    flex: 50%;
+}
+.lef4{
+    flex: 50%;
+    text-align: center;
+}
+.right4{
+    flex: 50%;
+}
+.rotate90 {
+    transform: rotate(180deg);
+    max-width: 100%;
+}
+.demo{
+    display: flex;
+    justify-content: space-around;
+}
+</style>
+<body>
+    <header>
+        <div class="nav">
+            <ul class="nav_items">
+                <li><span class="logo">CareerGuid</span>.com</li>
+                <li>Students <i class="arrow down"></i></li>
+                <li>Counsellor <i class="arrow down"></i></li>
+                <li>Professionals <i class="arrow down"></i></li>
+                <li>Psychometric test <i class="arrow down"></i></li>
+                <li>Institutes <i class="arrow down"></i></li>
+                <li>pricing</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li class="sign">Sign In</li>
+            </ul>
+        </div>
+    </header>
+    <section class="first">
+        <div class="right">
+            <div>
+                <br>
+            <span style="font-size:25px; font-weight: 200; color: #494949;">
+                your
+            </span><br>
+            <span style="font-size:50px; font-weight: 900; color: #494949;">
+                IDEL 
+            </span><br>
+            <span style="font-size:50px; font-weight: 900; color: #494949;">
+                CAREER
+            </span><br>
+            <span style="font-size:25px; color: #494949;">
+                is waiting for you..
+            </span><br><br>
+            <p style="width: 400px">
+                Suitable for person of any age group, this test report will help you to identify and explore suitable career options in order to get I started in career search or change.
+            </p>
+            <p style="width: 400px;">
+                Stop being lost and confused. Know your values, learn about
+                yourself, Identify your skills and find the perfect career for
+                you.
+            </p><br><br>
+            <button class="btn">START IDEAL CAREER TEST</button>
+            <br><br>
+            <p>Get <span style="color: #24a4b0;">Sample Test Report</span> of Buy <span style="color: #24a4b0;">Full Report</span> @Rs 1999 <br>
+                Have a <span style="color: #24a4b0; font-weight: bold;">Coupon Code?</span></p>
+        </div>
+        </div>
+        <div class="left">
+            <img src="s1.png" alt="image1" class="source1">
+        </div>
+    </section>
+    <section class="second">
+            <br>
+            <br>
+        <p style="font-size: 30px; text-align: center;">Find out what you do best and get someone to pay you for doing it.</p>
+        <img src="pic (3).png" alt="image2" class="source2">
+        <div class="container">
+            <div class="rigth1">
+                <img src="s2.png" alt="image3" class="source3">
+            </div>
+            <div class="left1">
+                <hr class="hr1">
+                <span>Insight of your</span><br>
+                <span>IDEAL CAREER</span><br>
+                <span>REPORT</span><br><br>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="third">
+        <div class="t_conatiner">
+            <div class="right3">
+                <br>
+                <br>
+                <span style="font-size:30px;"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h1v16H0V0zm1 15h15v1H1v-1z"></path><path fill-rule="evenodd" d="M14.39 4.312L10.041 9.75 7 6.707l-3.646 3.647-.708-.708L7 5.293 9.959 8.25l3.65-4.563.781.624z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M10 3.5a.5.5 0 01.5-.5h4a.5.5 0 01.5.5v4a.5.5 0 01-1 0V4h-3.5a.5.5 0 01-.5-.5z" clip-rule="evenodd"></path></svg></span><br>
+                <hr class="hr1">
+                <span style="font-size:50px; font-weight: 900; color: #494949;">Top</span><br>
+                <span style="font-size:50px; font-weight: 900; color: #494949;">IDEAL CAREERS</span><br><br>
+                <p style="text-align: center; font-size: 1em; font-weight: bold;">Get Your 3 Ideal Career Recommendations list on basis of scientific data and 5 parameters These are Motivators, Personality, Aptitude and Interests and your potential</p><br><br>
+                <button class="btn">GET IDEAL CAREER REPORT @RS. 1999</button>
+            </div>
+            <div class="left3">
+                <img src="ideal_career 2.png" alt="">
+            </div>
+        </div>
+    </div>
+    </section>
+    <section>
+        <div class="fourth">
+            <div class="right4">
+                <img src="ideal_career 2.png">
+            </div>
+            <div class="left4">
+                <span style="font-size:50px; font-weight: 900; color: #494949;">MOTIVATORS</span><br>
+                <span style="text-align: center; font-size: 1em; font-weight: bold;">Knowing your self and your motivators can help decide the kind of careers which will keep you excited and motivated Know all different kinds of motivators and get charged for your career place.</span><br><br>
+                <button class="btn">GET IDEAL CAREER REPORT @RS. 1999</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="third">
+        <div class="t_conatiner">
+            <div class="right3">
+                <br>
+                <br>
+                <span style="font-size:30px;"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h1v16H0V0zm1 15h15v1H1v-1z"></path><path fill-rule="evenodd" d="M14.39 4.312L10.041 9.75 7 6.707l-3.646 3.647-.708-.708L7 5.293 9.959 8.25l3.65-4.563.781.624z" clip-rule="evenodd"></path><path fill-rule="evenodd" d="M10 3.5a.5.5 0 01.5-.5h4a.5.5 0 01.5.5v4a.5.5 0 01-1 0V4h-3.5a.5.5 0 01-.5-.5z" clip-rule="evenodd"></path></svg></span><br>
+                <hr class="hr1">
+                <span style="font-size:50px; font-weight: 900; color: #494949;">APTITUDE</span><br><br>
+                <p style="text-align: center; font-size: 1em; font-weight: bold;">Aptitude is your ability - your strengths Knowing and working upon strengths can help walk long way in your career get scores and graphs related to 6 different types of aptitude and find about your highest Aptitude</p><br><br>
+                <button class="btn">GET IDEAL CAREER REPORT @RS. 1999</button>
+            </div>
+            <div class="left3">
+                <img src="ideal_career 2.png" alt="">
+            </div>
+        </div>
+    </div>
+    </section>
+    <section>
+        <img src="pic (3).png" alt="" class="rotate90">
+        <div>
+            <hr class="hr1">
+            <p style="text-align: center; font-size: 1.5rem;">How Ideal Career Testbr <br> helped in deciding a <br> <span style="font-size: 3rem; font-weight:bold;">PROMISING CAREER</span></p>
+        </div><br><br>
+        <div class="demo">
+            <iframe width="560" height="250" src="https://www.youtube.com/embed/H31dj7o7w_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+            <iframe width="560" height="250" src="https://www.youtube.com/embed/gthyf4bg5q8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div><br><br>
+        <div class="demo">
+            <iframe height="250" src="https://www.youtube.com/embed/o3IndE8xPnw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 450px;"></iframe>
+            <iframe height="250" src="https://www.youtube.com/embed/hFLTaOd398s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 450px;"></iframe>
+            <iframe height="250" src="https://www.youtube.com/embed/o8TY2jP38Ms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 450px;"></iframe>
+        </div>
+    </section>
+</body>
+</html>
